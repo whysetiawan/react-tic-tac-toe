@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #fff;
+}
+
+.square {
+  outline: none;
+  border: 4px solid ffac00;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  background: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.square:hover {
+  cursor: pointer;
+  background: #ffac00;
+  color: white;
+}
